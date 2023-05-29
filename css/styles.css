@@ -505,7 +505,8 @@ img {
         line-height: 1.5;
         color: var(--our-team-background);
         letter-spacing: 0.02em;
-        max-width: 264px;
+        width: 264px;
+        height: 74px;
 }
 
 .list-futures-svg {
@@ -631,5 +632,8 @@ img {
 .container-footer {
         display: flex;
         align-items: baseline;
+}
+
+.container-footer-link {
         margin-right: 120px;
 }
