@@ -218,6 +218,9 @@ img {
         background-color: var(--our-white-color);
         flex-basis: calc((100% - 72px) / 4);
         border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .our-team-padding {
@@ -515,4 +518,34 @@ img {
         background-color: var(--our-team-background);
         border-radius: 4px;
         margin-bottom: 8px;
+}
+
+.svg-our-team {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+}
+
+.svg-our-team-item {
+        width: 40px;
+        height: 40px;
+}
+
+.our-team-link {
+        width: 100%;
+        height: 100%;
+        background-color: var(--buttons-color);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.our-team-link:hover,
+.our-team-link:focus {
+        background-color: var(--hf-buttons-color);
+}
+
+.our-team-svg-item {
+        fill: var(--our-team-background);
 }
