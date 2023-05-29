@@ -637,3 +637,7 @@ img {
 .container-footer-link {
         margin-right: 120px;
 }
+
+.svg-customers {
+        fill: currentColor;
+}
