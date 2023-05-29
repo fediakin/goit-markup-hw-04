@@ -550,3 +550,48 @@ img {
 .our-team-svg-item {
         fill: var(--our-team-background);
 }
+
+.customers {
+        padding: 120px 0;
+}
+
+.customers-hero {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        color: var(--tags-color);
+        text-align: center;
+        letter-spacing: 0.02em;
+        margin-bottom: 72px;
+}
+
+.customers-list {
+        display: flex;
+        gap: 24px;
+}
+
+.item-list-customers {
+        width: calc((100% - 120px) / 6);
+        height: 88px;
+}
+
+.customers-links {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #8e8f99;
+}
+
+.customers-links:hover,
+.customers-links:focus {
+        border-color: var(--hf-buttons-color);
+        color: var(--hf-buttons-color);
+}
+
+.svg-customers {
+        fill: currentColor;
+}
