@@ -431,8 +431,7 @@ img {
         background-position: center;
         background-size: cover;
         padding: 188px 0;
-
-
+        margin: 0 auto;
 }
 
 .team {
